@@ -7,6 +7,7 @@
  * Gets a random number and test to
  * see if it is either greter than,
  * less than or equal to zero
+ * Return: 0
  */
 
 int main(void)
