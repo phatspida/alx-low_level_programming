@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - func
- * Prints lower reverse alphabets
+ * main - Prints lower reverse alphabets.
  * Return: 0
  */
 int main(void)
@@ -13,7 +12,6 @@ int main(void)
 		putchar(letter);
 
 	putchar('\n');
-
 
 	return (0);
 
