@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+
+/**
+ * main - funct
+ * Gets a random number and test to 
+ * see if it is either greter than,
+ * less than or equal to zero
+ */
 
 int main(void)
 {
