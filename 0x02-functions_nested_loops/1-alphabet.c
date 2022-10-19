@@ -11,11 +11,12 @@
 
 void print_alphatbet(void)
 {
-	int n;
+	char n;
+	passing argument 1 of ‘_putchar’ makes integer from pointer without a cast
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
 		_putchar (n);
 	}
-	_putchar ("\n")
+	_putchar ('\n');
 }
