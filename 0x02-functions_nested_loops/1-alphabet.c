@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * main - entry point.
- *
- * Description: 'The program prints the letters
- * of the alphabets in lower case.'
- *
- * Return: Always 0 (Succcess).
- */
-
-void print_alphatbet(void)
+* print_alphabet - print letters a to z
+*
+* Return: Always 0.
+*/
+void print_alphabet(void)
 {
-	char n;
-	passing argument 1 of ‘_putchar’ makes integer from pointer without a cast
+char i;
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar (n);
-	}
-	_putchar ('\n');
+for (i = 'a'; i <= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
