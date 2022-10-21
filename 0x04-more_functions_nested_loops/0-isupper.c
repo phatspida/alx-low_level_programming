@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * tests for upper case character.
+ * _isupper - tests for upper case character.
  * @c: The input character.
  *
  * Description: function compare input to test.
