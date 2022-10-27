@@ -5,12 +5,9 @@
  * @dest: input string to be concatenated
  * @src: input string to be concatenated
  *
- * Description: This function will append string pointed to by src
- * to the string pointed to by dest, overwriting the null byte.
- *
- * Return: a pointer to the resulting string dest
+ * Return: pointer to the resulting string dest
  */
-char _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *dest_end = dest;
 	int src_len = 0;
