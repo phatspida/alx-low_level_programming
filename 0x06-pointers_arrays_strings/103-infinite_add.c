@@ -12,7 +12,6 @@ void carry_from_prev(char *b, int i)
 	b[i] = b[i - 1] / 10;
 	b[i - 1] %= 10;
 }
-
 /**
  * find_str_end - find the end of a string
  * @s: the string
@@ -27,7 +26,6 @@ char *find_str_end(char *s)
 		;
 	return (s_end);
 }
-
 /**
  * infinite_add - adds two numbers
  * @n1: the first number to add
@@ -79,4 +77,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (j == i)
 		r[i] += '0';
 	return (r);
-}	
+}
