@@ -1,13 +1,12 @@
 #include "main.h"
 
-
 /**
- * _strncat - Funtion
+ * _strncat - Concantenator
  *
- * @dest: Destiny
- * @src: Source
- * @n: Variable
- * Return: Destiny
+ * @dest: D var
+ * @src: S Var
+ * @n: n Var
+ * Return: pointer to d
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -26,5 +25,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		r++;
 	}
-	return (dest)
+	return (dest);
 }
